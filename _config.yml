@@ -99,6 +99,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: maupassant
 
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -106,3 +114,4 @@ deploy:
   repo: https://github.com/LessThread/lessthread.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
+
