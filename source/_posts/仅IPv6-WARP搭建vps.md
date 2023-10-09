@@ -4,7 +4,7 @@ date: 2023-10-06 22:15:29
 tags: 
 - vps
 - 网络
-categories: 折腾偶得
+categories: 运维杂事
 ---
 
 # IPv6+WARP 去往南极洲

@@ -4,7 +4,7 @@ date: 2023-10-04 22:41:48
 tags: 
 - loongarch
 - 嵌入式
-categories: 开发日志
+categories: 开发/实验日志
 ---
 
 # loongarch-lite实验日志01
