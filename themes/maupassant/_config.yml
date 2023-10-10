@@ -132,7 +132,7 @@ widgets: ## Seven widgets in sidebar provided: search, info, category, tag, rece
 
 info:
   avatar: /img/avatar.jpg
-  discription: 'LessThread started his log.'
+  discription: "这段代码已经写进info.pug了"
   outlinkitem:
     - name: twitter
       outlink: https://twitter.com/_lessthread_
