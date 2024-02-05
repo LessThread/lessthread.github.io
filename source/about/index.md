@@ -10,13 +10,11 @@ layout: page
 
 # 关于
 ## 这是什么?
-这里是 LessThread 的博客,主要记录 LessThread 作为程序员摸爬滚打的历史.而这是 About 页面,将和您聊聊关于他的事.
+这里是 LessThread 的博客。
 
-## 谁是 LessThread ?
-LessThread是一位
 
 <span id="busuanzi_container_site_pv">
-    文章被阅读过<span id="busuanzi_value_site_pv"></span>次
+    这里的文章被阅读过<span id="busuanzi_value_site_pv"></span>次
 </span>
 
 <script>
