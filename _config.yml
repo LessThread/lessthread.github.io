@@ -97,7 +97,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+
+theme: fluid
+# theme: maupassant
 
 symbols_count_time:
   symbols: true                # 文章字数统计
@@ -115,3 +117,4 @@ deploy:
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
 
+mathjax: true  
