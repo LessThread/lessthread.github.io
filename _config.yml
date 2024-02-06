@@ -98,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-theme: fluid
-# theme: maupassant
+# theme: fluid
+theme: maupassant
 
 symbols_count_time:
   symbols: true                # 文章字数统计
@@ -118,3 +118,15 @@ deploy:
   branch: master
 
 mathjax: true  
+math:
+  katex:
+    css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+    options:
+      throwOnError: false
+  mathjax:
+    css: 'https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css'
+    options:
+      conversion:
+        display: false
+      tex:
+      svg:
