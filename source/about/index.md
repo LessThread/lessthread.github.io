@@ -9,6 +9,7 @@ layout: page
 </script>
 
 # 关于
-## 这是什么?
-这里是 LessThread 的博客。
+<center> <h3> 关山难越，谁悲失路之人？</h3></center> 
+  
+<center> <h3> 萍水相逢，尽是他乡之客。</h3></center> 
 

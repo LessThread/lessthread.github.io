@@ -117,9 +117,9 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  #- page: rss
+    # directory: atom.xml
+    # icon: fa-rss
 
 widgets: ## Seven widgets in sidebar provided: search, info, category, tag, recent_posts, recent_comments and links.
   - search
