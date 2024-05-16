@@ -36,27 +36,27 @@ categories: 开发/实验日志
 
 
 ## GPU 硬件   
-    依据显卡架构提供支持CUDA版本的上限 (下面表格摘自[wiki百科](https://zh.wikipedia.org/wiki/CUDA),更详细的情况请查阅英文wiki,中文更新略有延迟)
+依据显卡架构提供支持CUDA版本的上限 (下面表格摘自[wiki百科](https://zh.wikipedia.org/wiki/CUDA),更详细的情况请查阅英文wiki,中文更新略有延迟)  
 
-    | CUDA 版本 | 支持的计算能力 | 微架构 | 备注 |
-    | --- | --- | --- | --- |
-    | 1.0[10] | 1.0 – 1.1 | Tesla | - |
-    | 1.1 | 1.0 – 1.1+x | Tesla | - |
-    | 2.0 | 1.0 – 1.1+x | Tesla | - |
-    | 2.1 – 2.3.1[11][12][13][14] | 1.0 – 1.3 | Tesla | - |
-    | 3.0 – 3.1[15][16] | 1.0 – 2.0 | Tesla, Fermi | - |
-    | 3.2[17] | 1.0 – 2.1 | Tesla, Fermi | - |
-    | 4.0 – 4.2 | 1.0 – 2.1+x | Tesla, Fermi | - |
-    | 5.0 – 5.5 | 1.0 – 3.5 | Tesla, Fermi, Kepler | - |
-    | 6.0 | 1.0 – 3.5 | Tesla, Fermi, Kepler | - |
-    | 6.5 | 1.1 – 5.x | Tesla, Fermi, Kepler, Maxwell | 最后支持计算能力 1.x (Tesla) 的版本 |
-    | 7.0 – 7.5 | 2.0 – 5.x | Fermi, Kepler, Maxwell | - |
-    | 8.0 | 2.0 – 6.x | Fermi, Kepler, Maxwell, Pascal | 最后支持计算能力 2.x (Fermi) 的版本；GTX 1070Ti 不受支持 |
-    | 9.0 – 9.2 | 3.0 – 7.2 | Kepler, Maxwell, Pascal, Volta | Pascal GTX 1070Ti 不受 CUDA SDK 9.0 支持，但受 CUDA SDK 9.2支持 |
-    | 10.0 – 10.2 | 3.0 – 7.5 | Kepler, Maxwell, Pascal, Volta, Turing | 最后支持计算能力 3.x (Kepler) 的版本；CUDA SDK 10.2 是最后能用于 macOS 的官方版本，在未来的版本中 macOS 将不被支持 |
-    | 11.0 – | 3.5 - 8.6 | Maxwell, Pascal, Volta, Turing, Ampere | - |
+| CUDA 版本 | 支持的计算能力 | 微架构 | 备注 |
+| --- | --- | --- | --- |
+| 1.0[10] | 1.0 – 1.1 | Tesla | - |
+| 1.1 | 1.0 – 1.1+x | Tesla | - |
+| 2.0 | 1.0 – 1.1+x | Tesla | - |
+| 2.1 – 2.3.1[11][12][13][14] | 1.0 – 1.3 | Tesla | - |
+| 3.0 – 3.1[15][16] | 1.0 – 2.0 | Tesla, Fermi | - |
+| 3.2[17] | 1.0 – 2.1 | Tesla, Fermi | - |
+| 4.0 – 4.2 | 1.0 – 2.1+x | Tesla, Fermi | - |
+| 5.0 – 5.5 | 1.0 – 3.5 | Tesla, Fermi, Kepler | - |
+| 6.0 | 1.0 – 3.5 | Tesla, Fermi, Kepler | - |
+| 6.5 | 1.1 – 5.x | Tesla, Fermi, Kepler, Maxwell | 最后支持计算能力 1.x (Tesla) 的版本 |
+| 7.0 – 7.5 | 2.0 – 5.x | Fermi, Kepler, Maxwell | - |
+| 8.0 | 2.0 – 6.x | Fermi, Kepler, Maxwell, Pascal | 最后支持计算能力 2.x (Fermi) 的版本；GTX 1070Ti 不受支持 |
+| 9.0 – 9.2 | 3.0 – 7.2 | Kepler, Maxwell, Pascal, Volta | Pascal GTX 1070Ti 不受 CUDA SDK 9.0 支持，但受 CUDA SDK 9.2支持 |
+| 10.0 – 10.2 | 3.0 – 7.5 | Kepler, Maxwell, Pascal, Volta, Turing | 最后支持计算能力 3.x (Kepler) 的版本；CUDA SDK 10.2 是最后能用于 macOS 的官方版本，在未来的版本中 macOS 将不被支持 |
+| 11.0 – | 3.5 - 8.6 | Maxwell, Pascal, Volta, Turing, Ampere | - |
 
-    在选择硬件时,请结合您项目的实际需求,**请特别注意, CUDA 虽然有较好的兼容性设计,但是仍然存在较新显卡不能支持低版本 CUDA 的情况(详细情况请查询 wiki 的 CUDA 各版本算力支持范围)**
+在选择硬件时,请结合您项目的实际需求,**请特别注意, CUDA 虽然有较好的兼容性设计,但是仍然存在较新显卡不能支持低版本 CUDA 的情况(详细情况请查询 wiki 的 CUDA 各版本算力支持范围)**
 
 ## GPU 驱动
 依据显卡nvida官网上选择,如果您没有特殊需求,建议使用最新版本驱动

@@ -1,6 +1,6 @@
 ---
 title: loongarch-lite实验日志02
-date: 2024-12-10 22:41:48
+date: 2024-01-01 22:41:48
 tags: 
 - loongarch
 - 嵌入式
