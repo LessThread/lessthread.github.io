@@ -2,7 +2,7 @@
 title: WSL原理与比较
 date: 2023-09-29 14:01:22
 tags: 虚拟化 
-categories: 技术笔记
+categories: 笔记
 ---
 
 # WSL是如何在windows上运行的

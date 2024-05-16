@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: LessThread's log
+title: LessThread's Blog
 subtitle: ''
 description: ''
 keywords:
@@ -97,6 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
+# theme: fluid
 theme: maupassant
 
 symbols_count_time:
@@ -115,3 +117,16 @@ deploy:
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
 
+mathjax: true  
+math:
+  katex:
+    css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+    options:
+      throwOnError: false
+  mathjax:
+    css: 'https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css'
+    options:
+      conversion:
+        display: false
+      tex:
+      svg:

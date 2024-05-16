@@ -9,25 +9,7 @@ layout: page
 </script>
 
 # 关于
-## 这是什么?
-这里是 LessThread 的博客,主要记录 LessThread 作为程序员摸爬滚打的历史.而这是 About 页面,将和您聊聊关于他的事.
+<center> <h3> 关山难越，谁悲失路之人？</h3></center> 
+  
+<center> <h3> 萍水相逢，尽是他乡之客。</h3></center> 
 
-## 谁是 LessThread ?
-LessThread是一位
-
-<span id="busuanzi_container_site_pv">
-    文章被阅读过<span id="busuanzi_value_site_pv"></span>次
-</span>
-
-<script>
-      function calculateDays() {
-        var currentDate = new Date();
-        var targetDate = new Date("2022-10-01");
-        var timeDiff = Math.abs(currentDate.getTime() - targetDate.getTime());
-        var daysPassed = Math.ceil(timeDiff / (1000 * 3600 * 24));
-        document.getElementById("days").innerHTML = "白驹过隙,这是开始记录的第" + daysPassed + "天";
-      }
-</script>
-<body onload="calculateDays()">
-<p id="days"></p>
-</body>
