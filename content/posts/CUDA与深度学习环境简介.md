@@ -4,6 +4,7 @@ draft = false
 title = 'CUDA与深度学习环境简介'
 description = '对Noise2Same模型的优化与对比'   
 showTableOfContents = true
+categories = 'AI'
 +++
 # CUDA 简介
 引用自wiki:

@@ -2,7 +2,7 @@
 title: Win11 KB5055528 更新导致RDP错误
 date: 2025-04-14 20:11:02
 tags:
-categories:
+categories: 踩坑合集
 description: Win11 KB5055528 更新导致RDP错误解决方法
 mathjax: true 
 showTableOfContents: true
