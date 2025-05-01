@@ -3,6 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
+#theme = "hermit" # UNCOMMENT THIS LINE
 
 baseURL = "https://blog.lessthread.top/"
 defaultContentLanguage = "zh-cn"
