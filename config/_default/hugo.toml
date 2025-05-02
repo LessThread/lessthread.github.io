@@ -69,3 +69,8 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[services]
+  [services.disqus]
+    shortname = 'lessthread'
+hasCJKLanguage = true
