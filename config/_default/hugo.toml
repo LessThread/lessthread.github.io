@@ -72,9 +72,11 @@ enableEmoji = true
 [services]
   [services.disqus]
     shortname = 'lessthread'
-hasCJKLanguage = true
 
 
 [article]
   showZenMode = true
 
+[languages]
+ [languages.zh-cn]
+  hasCJKLanguage = true

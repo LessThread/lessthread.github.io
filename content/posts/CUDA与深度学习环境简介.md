@@ -1,11 +1,10 @@
-+++
-date = '2025-01-27T21:30:34+08:00'
-draft = false
-title = 'CUDA与深度学习环境简介'
-description = '对Noise2Same模型的优化与对比'   
-showTableOfContents = true
-categories = 'AI'
-+++
+---
+date : '2025-01-27T21:30:34+08:00'
+title : 'CUDA与深度学习环境简介'
+description : 'CUDA与深度学习环境简介'  
+categories : '人工智能'
+tags: ["CUDA"]
+---
 # CUDA 简介
 引用自wiki:
 > CUDA（Compute Unified Device Architecture，统一计算架构）是由英伟达NVIDIA所推出的一种软硬件集成技术，是该公司对于GPGPU的正式名称。透过这个技术，用户可利用NVIDIA的GPU进行图像处理之外的运算.

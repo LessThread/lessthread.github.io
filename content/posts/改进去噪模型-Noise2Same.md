@@ -1,11 +1,9 @@
 ---
 title: 改进去噪模型-Noise2Same
 date: 2024-01-17 13:58:22
-tags:
-categories: AI
+tags: ["CV"]
+categories: 人工智能
 description: 对Noise2Same模型的优化与对比
-mathjax: true 
-showTableOfContents: true
 ---
 # 前言
 基于N2S模型进行了修改  

@@ -1,11 +1,9 @@
 ---
 title: yolo5框架跨OS权重路径问题
 date: 2025-04-30 20:11:02
-tags:
+tags: ["CV"]
 categories: 踩坑合集
 description: yolo5框架跨OS权重路径问题
-mathjax: true 
-showTableOfContents: true
 ---
 
 ## 系统环境
