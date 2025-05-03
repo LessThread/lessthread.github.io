@@ -1,8 +1,8 @@
 ---
 title: vite路径过深导致打包错误
 date: 2025-04-24 20:11:02
-tags:
-categories: 踩坑合集
+tags: ["前端"]
+categories: ["踩坑合集"]
 description: vite路径过深导致打包错误
 mathjax: true 
 showTableOfContents: true
