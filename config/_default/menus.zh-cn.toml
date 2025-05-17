@@ -26,6 +26,11 @@
   pageRef = "tags"
   weight = 30
 
+[[main]]
+  name = "收藏夹"
+  pageRef = "favorites"
+  weight = 40
+
 
 
 
